@@ -1,0 +1,10 @@
+Wifi on
+Wifi off
+Bluetooth on
+Bluetooth off
+Time
+Volume increase
+Volume decrease
+Battery Saver on
+Battery Saver off
+Date

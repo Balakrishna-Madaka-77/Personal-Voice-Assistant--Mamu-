@@ -1,0 +1,76 @@
+Language model created by QuickLM on Thu May  8 10:10:47 EDT 2025
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 13 words
+
+\data\
+ngram 1=13
+ngram 2=21
+ngram 3=19
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.6021 BATTERY -0.2900
+-1.6021 BLUETOOTH -0.2672
+-1.9031 DATE -0.2430
+-1.9031 DECREASE -0.2430
+-1.9031 INCREASE -0.2430
+-1.4260 OFF -0.2430
+-1.4260 ON -0.2430
+-1.6021 SAVER -0.2672
+-1.9031 TIME -0.2430
+-1.6021 VOLUME -0.2900
+-1.6021 WIFI -0.2672
+
+\2-grams:
+-1.0000 <s> BATTERY 0.0000
+-1.0000 <s> BLUETOOTH 0.0000
+-1.3010 <s> DATE 0.0000
+-1.3010 <s> TIME 0.0000
+-1.0000 <s> VOLUME 0.0000
+-1.0000 <s> WIFI 0.0000
+-0.3010 BATTERY SAVER 0.0000
+-0.6021 BLUETOOTH OFF 0.0000
+-0.6021 BLUETOOTH ON 0.0000
+-0.3010 DATE </s> -0.3010
+-0.3010 DECREASE </s> -0.3010
+-0.3010 INCREASE </s> -0.3010
+-0.3010 OFF </s> -0.3010
+-0.3010 ON </s> -0.3010
+-0.6021 SAVER OFF 0.0000
+-0.6021 SAVER ON 0.0000
+-0.3010 TIME </s> -0.3010
+-0.6021 VOLUME DECREASE 0.0000
+-0.6021 VOLUME INCREASE 0.0000
+-0.6021 WIFI OFF 0.0000
+-0.6021 WIFI ON 0.0000
+
+\3-grams:
+-0.3010 <s> BATTERY SAVER
+-0.6021 <s> BLUETOOTH OFF
+-0.6021 <s> BLUETOOTH ON
+-0.3010 <s> DATE </s>
+-0.3010 <s> TIME </s>
+-0.6021 <s> VOLUME DECREASE
+-0.6021 <s> VOLUME INCREASE
+-0.6021 <s> WIFI OFF
+-0.6021 <s> WIFI ON
+-0.6021 BATTERY SAVER OFF
+-0.6021 BATTERY SAVER ON
+-0.3010 BLUETOOTH OFF </s>
+-0.3010 BLUETOOTH ON </s>
+-0.3010 SAVER OFF </s>
+-0.3010 SAVER ON </s>
+-0.3010 VOLUME DECREASE </s>
+-0.3010 VOLUME INCREASE </s>
+-0.3010 WIFI OFF </s>
+-0.3010 WIFI ON </s>
+
+\end\

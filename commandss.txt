@@ -1,0 +1,10 @@
+Open youtube
+Close youtube
+Pause youtube
+Resume youtube
+Rewind youtube
+Forward youtube
+Mute youtube
+Unmute youtube
+Full screen youtube
+Exit Full screen youtube

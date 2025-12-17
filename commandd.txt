@@ -1,0 +1,12 @@
+Open Settings
+Close Settings
+Open Camera
+Close Camera
+Open MS Office
+Close MS Office
+Open MS Excel
+Close MS Excel
+Open Notepad
+Close Notepad
+Open MS Word
+Close MS Word

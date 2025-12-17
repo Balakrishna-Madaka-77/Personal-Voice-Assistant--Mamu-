@@ -1,0 +1,5 @@
+Shutdown PC
+Restart PC
+Increase Brightness
+Decrease Brightness
+Battery Percentage
